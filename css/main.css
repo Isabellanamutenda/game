@@ -1,0 +1,55 @@
+body{
+    background-image:url(https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/aceb1cf8c0f741168ac0cd74646282d5.jpg);
+}
+h1{
+  text-align: center;
+  font-weight:bold;
+  font-size:50px;
+  text-shadow: 3px 3px #000;
+  color: #42cef5;
+  
+    }
+
+    .btn-primary{
+        background-color: #f2d666;
+        color: brown;
+        font-size: 50px;
+        text-shadow: 3px 3px #000;
+        font-weight: bold;
+        font-family: 'Shadows Into Light', cursive;
+       
+        
+
+    }
+    
+    button{ 
+        display: block;
+        margin: auto;
+        padding: 20px;
+        width: 300px;
+        background-color: burlywood;
+        border: 2px solid white;
+        font-family: "Century Gothic";
+        color: teal;
+        font-size: 35px;
+
+    }
+
+    button:hover{
+        background-color: white;
+        color: yellowgreen;
+    }
+
+    #doThis{
+       color: black;
+       font-size: 20px;
+       margin: 20px;
+        text-align: left;
+    }
+    #doHere{
+        color: black;
+        font-size: 20px;
+        margin: 20px;
+         text-align: left;
+     }
+ 
