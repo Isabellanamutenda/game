@@ -4,52 +4,125 @@ body{
 h1{
   text-align: center;
   font-weight:bold;
-  font-size:50px;
+  font-size:85px;
   text-shadow: 3px 3px #000;
   color: #42cef5;
   
-    }
-
-    .btn-primary{
-        background-color: #f2d666;
-        color: brown;
-        font-size: 50px;
-        text-shadow: 3px 3px #000;
-        font-weight: bold;
-        font-family: 'Shadows Into Light', cursive;
-       
-        
+    
 
     }
     
-    button{ 
-        display: block;
+    .instructions{ 
         margin: auto;
         padding: 20px;
         width: 300px;
-        background-color: burlywood;
-        border: 2px solid white;
-        font-family: "Century Gothic";
-        color: teal;
+        background-color: #e8e041;
+        border-radius: 15px;
+        font-weight: bolder;
+        color: brown;
         font-size: 35px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        bottom: 0;
+        position: absolute;
+        text-shadow: 3px 3px #000;
+
+    }
+    .play{ 
+        margin: auto;
+        padding: 20px;
+        width: 300px;
+        background-color: #e8e041;
+        border-radius: 15px;
+        font-weight: bolder;
+        color: brown;
+        font-size: 35px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        text-shadow: 3px 3px #000;
 
     }
 
     button:hover{
-        background-color: white;
-        color: yellowgreen;
+        background-color: #e8e041;
+        color: #d1cb56;
+        text-shadow: 3px 3px #000;
     }
 
     #doThis{
        color: black;
        font-size: 20px;
        margin: 20px;
-        text-align: left;
+       text-align: left;
+
+    }
+    .card{
+        margin: auto;
+        visibility: hidden;
+        background-color: #0aa8cf;
+        border-radius: 30px;
+    }
+    .carde{
+        margin: auto;
+        visibility: hidden;
     }
     #doHere{
         color: black;
         font-size: 20px;
         margin: 20px;
-         text-align: left;
+        text-align: left;
      }
+
+     .button-sound {
+         background-color: #dfe5e8;
+     }
+
+     .button-sound:hover{
+        background-color: #3f7a9e;
+        color: white;
+        
+    }
+    .dropbtn {
+        background-color: #0aa8cf;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        border-radius: 15px;
+        
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        border-radius: 15px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 15px;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #c5c7c9;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #0aa8cf;}
+
  
+     
