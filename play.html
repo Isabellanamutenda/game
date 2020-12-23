@@ -8,28 +8,76 @@
     <script src="play.js"></script>
     <title>Hello, world!</title>
     <link href="css/main.css" rel="stylesheet">
-
+    <link href="css/play.css" rel="stylesheet">
 </head>
 
   <body>
+    <div class="choose">
+      <h1>Choose Your sound:</h1>
+      <div class="hero">
+          <button class="play" onclick="hey()">PLAY</button>
+          <div class="carde" id='cardthere' style="width: 18rem;"></div>
+          <p id="doHere"></p>
+          
+      </div>
+    </div> 
 
-    <h1>Choose Your sound:</h1>
-    <div class="hero">
-        <button class="play" onclick="hey()">PLAY</button>
-        <div class="carde" id='cardthere' style="width: 18rem;"></div>
-        <p id="doHere"></p>
+  <div class="settings">
+    <h1 class="settings-title">Choose your settings:</h1>
+
+    <div class="settings-menu">
+      <div class="dropdown">
+        <button class="dropbtn">Length of Time?</button>
+        <div class="dropdown-content">
+          <a href="#" onclick="updateTime(1)">1 min</a>
+          <a href="#" onclick="updateTime(2)">2 min</a>
+          <a href="#" onclick="updateTime(5)">5 min</a>
+          <a href="#" onclick="updateTime(10)">10 min</a>
+          <a href="#" class="sound-time">15 min</a>
+          <a href="#" class="sound-time">20 min</a>
+          <a href="#" class="sound-time">30 min</a>
+          <a href="#" class="sound-time">45 min</a>
+          <a href="#" class="sound-time">60 min</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Show Timer?</button>
+        <div class="dropdown-content">
+              <a href="#">Yes </a>
+              <a href="#">No</a>
+              
         
-    </div>
-   
-      
-  </div>
-  <div class="cont">
-    <a href="settings.html"><button class="cont" onclick="hey()">Birds in a Costa Rican Rainforest</button></a>
-    <div class="carde" id='cardthere' style="width: 18rem;">
-        <p id="doHere"></p>
-</div>
+        </div>
+      </div>
 
-    
-    
+      <div class="dropdown">
+        <button class="dropbtn">Bell On?</button>
+        <div class="dropdown-content">
+          <a href="#">Yes </a>
+              <a href="#">No</a>
+              
+        
+        </div>
+      </div>
+  
+      <div class="next">
+        <button class="nextbtn" onclick="playSound()">NEXT</button>
+      </div>
+    </div>
+
+  
+  
+  </div>
+
+  <div class="jump">
+    <div id="myProgress">
+      <div id="myBar"></div>
+    </div>
+    <audio id="audio" loop="true" autoplay>
+      <p>If you are reading this, it is because your browser does not support the audio element.     </p>
+      </audio>
+  </div>
+
   </body>
 </html>

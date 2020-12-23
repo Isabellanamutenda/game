@@ -1,0 +1,79 @@
+a:link {
+  text-decoration: none;
+}
+
+.settings-menu{
+  margin: auto;
+  width: fit-content;
+}
+
+.settings-title{
+  margin-bottom: 100px;
+}
+
+.dropbtn,
+.nextbtn {
+  background-color: #0aa8cf;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.nextbtn {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#myProgress {
+  background-color: #ddd;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border-radius: 15px;
+  padding-right: 40px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #c5c7c9; color: white !important;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #0aa8cf;}
